@@ -11,6 +11,6 @@ function separaNotasMoedas(texto, tipo, dinheiro) {
     dinheiro.map((nota) => {
         let qtdNotas = parseInt(valor / nota);
         console.log(`${qtdNotas} ${tipo}(s) de R$ ${nota.toFixed(2)}`);
-        valor = valor % nota;
+        valor = (valor % nota) + 0.00001;
     });
 }
