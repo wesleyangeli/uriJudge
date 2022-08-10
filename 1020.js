@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('stdin', 'utf8');
+const input = require('fs').readFileSync('./dados/stdin', 'utf8');
 
 let qtdDias = parseInt(input);
 

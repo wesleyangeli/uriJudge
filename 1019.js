@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('stdin', 'utf8');
+const input = require('fs').readFileSync('./dados/stdin', 'utf8');
 let tempo = parseInt(input);
 const horas = parseInt(tempo / 60 / 60);
 const minutos = parseInt((tempo / 60) % 60);

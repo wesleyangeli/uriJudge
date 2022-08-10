@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('stdin', 'utf8');
+const input = require('fs').readFileSync('./dados/stdin', 'utf8');
 
 let valor = parseInt(input);
 const notas = [100, 50, 20, 10, 5, 2, 1];
