@@ -1,2 +1,2 @@
 # uriJudge
-Resolução do exercícios URI Judge
+Resolução dos exercícios URI Judge
